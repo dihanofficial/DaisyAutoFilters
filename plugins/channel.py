@@ -100,7 +100,7 @@ async def addchannel(client: Bot, message: Message):
     intmsg = await message.reply_text(
         "<b>Please wait while I'm adding your channel files to DB"
         "\n\nTime may vary according to files present in the channel"
-        "\nSay Hi to the support @DaisySupport_Official!!</b>"
+        "\nSay Hi to the support @SophiaSupport_Official!!</b>"
     )
 
     channel_id = chatdetails.id
@@ -233,8 +233,8 @@ async def deletechannelfilters(client: Bot, message: Message):
         return
 
     intmsg = await message.reply_text(
-        "<b>Removing from Daisy's autofilter db"
-        "\n\nSay Hi to the support @DaisySupport_Official!</i>"
+        "<b>Removing from Sophia's autofilter db"
+        "\n\nSay Hi to the support @SophiaSupport_Official!</i>"
     )
 
     channel_id = chatdetails.id
